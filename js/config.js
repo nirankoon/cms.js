@@ -3,10 +3,10 @@ $(function() {
   CMS.init({
 
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
-    siteName: 'FeekoonPersonal',
+    siteName: 'Feekoon',
 
     // Tagline for your site
-    siteTagline: 'Create Your Own Personal Website',
+    siteTagline: 'facebook is your social but feekoon is your homepages',
 
     // Email address
     siteEmail: 'nirankoon@nuol.edu.la',
@@ -16,7 +16,7 @@ $(function() {
 
     // Navigation items
     siteNavItems: [
-      { name: 'Github', href: 'https://github.com/nirankoon', newWindow: false},
+      { name: 'facebook', href: 'https://facebook.com/feekoon', newWindow: false},
       { name: 'About'}
     ],
 

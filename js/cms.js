@@ -10,11 +10,11 @@
 var CMS = {
 
   settings: {
-    siteName: 'CMS.js',
-    siteTagline: 'Your site tagline',
-    siteEmail: 'your_email@example.com',
-    siteAuthor: 'Your Name',
-    siteUrl: '',
+    siteName: 'Feekoon',
+    siteTagline: 'A Personal Website',
+    siteEmail: 'feekoon@gmail.com',
+    siteAuthor: 'NirankoonSingpraseuth',
+    siteUrl: 'http://feekoon.com/',
     siteNavItems: [
       { name: 'Github', href: '#', newWindow: false },
       { name: 'About' }
@@ -26,12 +26,12 @@ var CMS = {
     fadeSpeed: 300,
     mainContainer: $(document.getElementsByClassName('cms_main')),
     footerContainer: $(document.getElementsByClassName('cms_footer')),
-    footerText: '&copy; ' + new Date().getFullYear() + ' All Rights Reserved.',
+    footerText: '&copy; ' + new Date().getFullYear() + ' ສະຫງວນລິຂະສິດ.',
     parseSeperator: '---',
     postsOnFrontpage: true,
     pageAsFrontpage: '',
     postsOnUrl: '',
-    loader: '<div class="loader">Loading...</div>',
+    loader: '<div class="loader">ກຳລັງດຶງຂໍ້ມູນ...</div>',
     get siteAttributes() {
       return [
         { attr: 'title', value: CMS.settings.siteName },
@@ -42,8 +42,8 @@ var CMS = {
     },
     mode: 'Github',
     githubUserSettings: {
-      username: 'yourusername',
-      repo: 'yourrepo',
+      username: 'nirankoon',
+      repo: 'feekoonpersonal',
     },
     githubSettings: {
       branch: 'gh-pages',
